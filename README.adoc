@@ -1,0 +1,60 @@
+= Blizzard Quotes
+:toc:
+
+== Summary
+
+APIs and UIs for retrieving quotes from classic Blizzard games. 
+Current games include Warcraft III, Starcraft II, and Starcraft.
+
+An AWS architecture diagram can be found under the diagrams/ directory.
+
+NOTE: This was basically just a fun project to see how easily and cheaply 
+it could be to make an API and UI using modern web development tools / frameworks 
+(Node.js, Vue.js, Vuetify) and infrastructure orchestration tools (Terraform, Serverless) 
+alongside a cloud service provider (AWS).
+Documentation and all source code is made public for educational purposes.
+
+== Information
+
+Various information necessary to maintain this project.
+
+* Email: blizzardquotes@gmail.com
+* Domain: link:blizzardquotes.com[]
+
+Accounts and organizations housing the infrastructure / source code.
+
+* AWS account: https://blizzard-quotes.signin.aws.amazon.com/console/
+* GitHub organization: https://github.com/blizzard-quotes
+* NPM organization: https://www.npmjs.com/org/blizzard-quotes
+
+== Infrastructure
+
+Documentation and source code pertaining to infrastructure 
+can be found at https://github.com/blizzard-quotes/tf-blizzard-quotes.
+
+== API
+
+Documentation and source code for APIs can be found in the api repositories
+inside the blizzard-quotes GitHub organization 
+(https://github.com/blizzard-quotes)
+
+== UI
+
+Documentation and source code for APIs can be found in the api repositories
+inside the blizzard-quotes GitHub organization 
+(https://github.com/blizzard-quotes)
+
+== Endpoints
+
+Available endpoints that can be hit from the web.
+
+* https://blizzardquotes.com
+** https://wc3.blizzardquotes.com
+*** https://api.wc3.blizzardquotes.com
+*** https://swagger.wc3.blizzardquotes.com
+** https://sc2.blizzardquotes.com
+*** https://api.sc2.blizzardquotes.com
+*** https://swagger.sc2.blizzardquotes.com
+** https://sc.blizzardquotes.com
+*** https://api.sc.blizzardquotes.com
+*** https://swagger.sc.blizzardquotes.com
